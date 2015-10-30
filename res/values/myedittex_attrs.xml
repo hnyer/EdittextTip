@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="FloatLabeledEditText">
+        <!-- 自定义的样式 -->
+        <attr name="fletTextAppearance" format="reference" />
+        <attr name="fletBackground" format="reference|color" />
+        <!--间距-->
+        <attr name="fletPadding" format="reference|dimension" />
+        <attr name="fletPaddingLeft" format="reference|dimension" />
+        <attr name="fletPaddingTop" format="reference|dimension" />
+        <attr name="fletPaddingRight" format="reference|dimension" />
+        <attr name="fletPaddingBottom" format="reference|dimension" />
+        
+    </declare-styleable>
+
+</resources>

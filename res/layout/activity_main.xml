@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myEditHnyer="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+    <com.hnyer.widget.FloatLabeledEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        myEditHnyer:fletPadding="10dp"
+        myEditHnyer:fletBackground="@drawable/ic_launcher"
+        myEditHnyer:fletTextAppearance="@style/floatlabelededittext" >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="猥琐小哥" />
+    </com.hnyer.widget.FloatLabeledEditText>
+
+    <!-- password input -->
+
+</LinearLayout>
